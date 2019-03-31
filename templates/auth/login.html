@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}"/>
+    <script src="{% static 'js/login-validation.js' %}" async></script>
+</head>
+<body>
+<form id="login-form">{% csrf_token %}
+    <label for="email">Email</label><input id="email" type="email" name="username" />
+    <label for="password">Password</label><input id="password" type="password" name="password" />
+    <button id="login-btn" type="button">Login</button>
+</form>
+</body>
+</html>

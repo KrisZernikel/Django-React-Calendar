@@ -1,0 +1,54 @@
+ul {padding:0}
+li {list-style:none}
+@media only screen and (max-width: 1024px) {
+    .card-deck, .card-columns {
+        display:flex;
+        flex-flow:column wrap
+
+    }
+}
+
+.card-deck, .card-columns {
+    padding:1rem
+}
+
+.card-deck .card img, .card-columns .card img {
+    height:35rem;
+    object-fit:cover
+}
+
+.carousel {
+    height: 100vh
+}
+
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.card-columns .card .card-footer button {
+    height: 3rem;
+    width: 6rem;
+    font-size: 1.2rem
+}
+
+.card-deck .card img {
+    height: 20rem;
+    object-fit: cover
+}
+
+.navbar .navbar-nav a {
+    margin: 0 1rem
+}
+
+.z-1{z-index:1100 !important}
+.z-2{z-index:2200 !important}
+
+.border-c {
+    height:3.5rem;
+    width:3.5rem;
+    border-radius:50%
+}
+
+.b-0 {bottom:0}
+.r-0 {right:0}

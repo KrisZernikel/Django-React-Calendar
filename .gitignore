@@ -1,0 +1,23 @@
+# ignore virtual environment
+/venv
+
+# ignore .idea
+/.idea
+
+# ignore react/duehringmasonry/node_modules
+/react/duehringmasonry/node_modules
+
+# ignore react/duehringmasonry/build
+/react/duehringmasonry/build
+
+# ignore react/schedule/node_modules
+/react/schedule/node_modules
+
+# ignore react/schedule/build
+/react/schedule/build
+
+# ignore db.duehringmasonry
+/db.duehringmasonry
+
+# ignore server/migrations
+/server/migrations
